@@ -1,0 +1,27 @@
+name: android_esp32_bt_recording_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons:
+  flutter_bluetooth_serial:
+  path_provider:
+  intl:
+  flutter_svprogresshud:
+  audioplayers: ^6.0.0
+  flutter_smart_dialog:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
